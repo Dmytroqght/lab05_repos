@@ -15,8 +15,8 @@ namespace UnitTest2
             double a = 2.0;
             double b = 3.0;
             double expected_result = 19.0;
-            double actual_result = g(a, b); 
+            double actual_result = g(a, b);
             Assert::AreEqual(expected_result, actual_result);
-        }
+        };
     };
 }
